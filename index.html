@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <h2>Quick Tip</h2>
+    </header>
+    <section class="bill">
+        <div class="enterBill">
+            <p>Bill</p>
+            <input type="number" id="input-bill" placeholder="Your bill">
+        </div>
+        <div class="select-tip">
+            <div class="tip">
+            <p>Select tip</p>
+            <p class='tip-percent'></p>
+            </div>
+            <div class="tip-slider-container">
+                <div class="slide tip-slider-cursor"></div>
+                <div class="tip-slider"></div>
+            </div>
+            <div class="tip-amount">
+                <p>Tip</p>
+                <p class='tip-total'>$0.00</p>
+            </div>
+            <div class="total-amount">
+                <p>Total</p>
+                <p class="totalAmount">$0.00</p>
+            </div>
+        </div>
+    </section>
+    <section class="geust-number">
+        <div class="split">
+            <p>split</p>
+            <p class="geust-num"></p>
+        </div>
+        <div class="split-slider">
+            <div class="slide split-slider-cursor"></div>
+            <div class="number-slider"></div>
+        </div>
+        <div class="bill-each">
+            <p>bill each</p>
+            <p class='billEach'>$0.00</p>
+        </div>
+        <div class="tip-each">
+            <p>tip each</p>
+            <p class="tipEach">$0.00</p>
+        </div>
+    </section>
+<script src="main.js"></script> 
+</body>
+</html>
